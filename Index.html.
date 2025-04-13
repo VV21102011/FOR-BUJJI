@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Bujji Only</title>
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .heart {
+            font-size: 100px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .heart:hover {
+            transform: scale(1.2);
+        }
+        .message {
+            display: none;
+            font-size: 24px;
+            margin-top: 20px;
+            color: #fff;
+        }
+        h1 {
+            font-size: 36px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>For My Bujji Only</h1>
+    <div id="heart" class="heart">❤️</div>
+    <div id="message" class="message">
+        Oyee Bujji 😘 Kese ho? <br>
+        Thume thank you bol naa tha ☺️ <br>
+        Joo tum mere itna khayal jo rakh ti hoo ☺️😘 <br>
+        Thank you sooo much ree Bujji ☺️ <br>
+        Sach kahu too thumare bina kuch bhi aacha nahi lag taa 🥺 <br>
+        Kabhi galti ho jai to thumare pura haak hee tum maro yaa dato, per chood kee kabhi chale maat jana bina bataye 🥺 <br>
+        Bass itna hii ☺️ <br>
+        Aapna khayal rakh naa 😘🥰
+    </div>
+
+    <script>
+        document.getElementById('heart').onclick = function() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
